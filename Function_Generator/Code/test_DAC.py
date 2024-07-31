@@ -67,7 +67,7 @@ for i_loop in range(N_LOOPS):
             sleep(0.1)
         else:
             # For 4-bit count by 16
-            set_dac(16 * i)
+            set_dac(i<<4)
             sleep(16 * 0.1)
         # Take data and print it
         (Vsig, Vgndv) = adc_v()
