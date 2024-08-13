@@ -1,0 +1,49 @@
+<style type="text/css">
+@import url('http://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+/* Change code font */
+.CodeMirror pre {
+    font-family: 'Source Code Pro', Consolas, monocco, monospace;
+}
+
+div.text_cell {  
+    max-width: 105ex; /* instead of 100%, */
+}
+
+div.text_cell_render h1 {  
+    font-size: 16pt;
+    font-weight: bold;
+    color: RoyalBlue;
+}
+
+div.text_cell_render h2 {  
+    font-size: 14pt;
+    font-weight: bold;
+    font-style: italic;
+    color: RoyalBlue;
+}
+
+div.text_cell_render h3 {  
+    font-size: 14pt;
+    font-weight: normal;
+    font-style: italic;
+    color: RoyalBlue;
+}
+
+div.text_cell_render .rendered_html pre,
+div.text_cell_render .rendered_html code {
+    font-size: 14pt;
+    color: RoyalBlue;
+}
+
+.rendered_html ol {
+    list-style:decimal;
+    margin: 1em 2em;
+}
+
+hr {
+  height:0; 
+  border:0; 
+  border-top:5px solid RoyalBlue; 
+}
+</style>

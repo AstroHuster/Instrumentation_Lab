@@ -1,0 +1,47 @@
+]0;🐍code.py | 9.0.5\Traceback (most recent call last):
+  File "code.py", line 49, in <module>
+  File "adafruit_rfm69.py", line 888, in receive
+  File "adafruit_rfm69.py", line 167, in check_timeout
+  File "adafruit_rfm69.py", line 750, in payload_ready
+  File "adafruit_rfm69.py", line 418, in _read_u8
+  File "adafruit_rfm69.py", line 408, in _read_into
+KeyboardInterrupt: 
+]0;🐍408@adafruit_rfm69.py KeyboardInterrupt | 9.0.5\
+Code done running.
+[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+
+Press any key to enter the REPL. Use CTRL-D to reload.
+soft reboot
+
+[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+[2K[0Gcode.py output:
+]0;🐍code.py | 9.0.5\Feather RP20240 RFM69 Receive Demo
+Waiting for packets...
+Received a packet >6.9119<
+Received a packet >8.1906<
+Received a packet >4.15182<
+Received a packet >7.12122<
+Received a packet >1.20628<
+Received a packet >1.77901<
+Received a packet >7.61988<
+Received a packet >4.05655<
+Received a packet >3.58929<
+Received a packet >7.25779<
+Received a packet >4.25471<
+Received a packet >7.99181<
+Received a packet >2.17535<
+Received a packet >2.93593<
+Received a packet >6.63239<
+Traceback (most recent call last):
+  File "code.py", line 49, in <module>
+  File "adafruit_rfm69.py", line 888, in receive
+  File "adafruit_rfm69.py", line 167, in check_timeout
+  File "adafruit_rfm69.py", line 750, in payload_ready
+  File "adafruit_rfm69.py", line 418, in _read_u8
+  File "adafruit_rfm69.py", line 414, in _read_into
+KeyboardInterrupt: 
+]0;🐍414@adafruit_rfm69.py KeyboardInterrupt | 9.0.5\
+Code done running.
+
+Press any key to enter the REPL. Use CTRL-D to reload.
+]0;🐍Done | 9.0.5\]0;🐍Done | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\

@@ -1,0 +1,61 @@
+]0;🐍code.py | 9.0.5\Traceback (most recent call last):
+  File "code.py", line 36, in <module>
+KeyboardInterrupt: 
+]0;🐍36@code.py KeyboardInterrupt | 9.0.5\
+Code done running.
+
+Press any key to enter the REPL. Use CTRL-D to reload.
+soft reboot
+
+[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+[2K[0Gcode.py output:
+]0;🐍code.py | 9.0.5\Feather RP20240 RFM69 Send Demo
+Traceback (most recent call last):
+  File "code.py", line 35, in <module>
+KeyboardInterrupt: 
+]0;🐍35@code.py KeyboardInterrupt | 9.0.5\
+Code done running.
+
+Press any key to enter the REPL. Use CTRL-D to reload.
+soft reboot
+
+[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+[2K[0Gcode.py output:
+]0;🐍code.py | 9.0.5\Feather RP20240 RFM69 Send Demo
+]0;🐍code.py | 9.0.5\Traceback (most recent call last):
+  File "code.py", line 35, in <module>
+KeyboardInterrupt: 
+]0;🐍35@code.py KeyboardInterrupt | 9.0.5\
+Code done running.
+[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+
+Press any key to enter the REPL. Use CTRL-D to reload.
+soft reboot
+
+[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+[2K[0Gcode.py output:
+]0;🐍code.py | 9.0.5\Feather RP20240 RFM69 Send Demo
+Sent packet
+]0;🐍code.py | 9.0.5\Sent packet
+Sent packet
+Sent packet
+Sent packet
+Sent packet
+Sent packet
+Sent packet
+Sent packet
+Sent packet
+Sent packet
+Sent packet
+Sent packet
+Sent packet
+Traceback (most recent call last):
+  File "code.py", line 36, in <module>
+KeyboardInterrupt: 
+]0;🐍36@code.py KeyboardInterrupt | 9.0.5\
+Code done running.
+
+Press any key to enter the REPL. Use CTRL-D to reload.
+]0;🐍REPL | 9.0.5\
+Adafruit CircuitPython 9.0.5 on 2024-05-22; Adafruit Feather RP2040 RFM with rp2040
+>>> ]0;🐍REPL | 9.0.5\]0;🐍REPL | 9.0.5\]0;🐍REPL | 9.0.5\]0;🐍REPL | 9.0.5\]0;🐍REPL | 9.0.5\]0;🐍REPL | 9.0.5\

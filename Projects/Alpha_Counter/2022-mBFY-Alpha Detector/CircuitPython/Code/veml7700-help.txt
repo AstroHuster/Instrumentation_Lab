@@ -1,0 +1,32 @@
+help(veml7700)
+object <VEML7700 object at 0x3fd8c040> is of type VEML7700
+  integration_time_value -- <function integration_time_value at 0x3ff7e880>
+  ALS_GAIN_1_4 -- 3
+  ALS_50MS -- 8
+  light_high_threshold -- <UnaryStruct object at 0x3ff7e870>
+  light_low_threshold -- <UnaryStruct object at 0x3ff7e860>
+  light_gain -- <RWBits object at 0x3ff7e850>
+  gain_values -- {0: 1, 1: 2, 2: 0.125, 3: 0.25}
+  gain_value -- <function gain_value at 0x3ff7e800>
+  ALS_800MS -- 3
+  ALS_25MS -- 12
+  white -- <ROUnaryStruct object at 0x3ff7e7f0>
+  __init__ -- <function __init__ at 0x3ff7e720>
+  ALS_GAIN_1_8 -- 2
+  resolution -- <function resolution at 0x3ff7e6b0>
+  lux -- <property>
+  light_shutdown -- <RWBit object at 0x3ff7e650>
+  light_interrupt -- <RWBit object at 0x3ff7e640>
+  ALS_100MS -- 0
+  light_interrupt_high -- <ROBit object at 0x3ff7e630>
+  light -- <ROUnaryStruct object at 0x3ff7e620>
+  ALS_400MS -- 2
+  __qualname__ -- VEML7700
+  light_integration_time -- <RWBits object at 0x3ff7e610>
+  __module__ -- adafruit_veml7700
+  ALS_GAIN_1 -- 0
+  ALS_GAIN_2 -- 1
+  ALS_200MS -- 1
+  integration_time_values -- {12: 25, 0: 100, 8: 50, 1: 200, 2: 400, 3: 800}
+  light_interrupt_low -- <ROBit object at 0x3ff7e5f0>
+>>>

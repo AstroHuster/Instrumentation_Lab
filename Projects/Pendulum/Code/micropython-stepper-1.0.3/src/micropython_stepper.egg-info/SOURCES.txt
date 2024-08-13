@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/micropython_stepper.egg-info/PKG-INFO
+src/micropython_stepper.egg-info/SOURCES.txt
+src/micropython_stepper.egg-info/dependency_links.txt
+src/micropython_stepper.egg-info/requires.txt
+src/micropython_stepper.egg-info/top_level.txt
+src/stepper/__init__.py
+src/stepper/__main__.py
