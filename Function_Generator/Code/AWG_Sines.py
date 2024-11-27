@@ -39,7 +39,10 @@ if 'log' in ans:
     
     ln0 = log(fr0)
     ln1 = log(fr1)
-    d_ln = (ln1 - ln0) / (nf -1)
+    if nf < 2:
+        d_ln = 1
+    else:
+        d_ln = (ln1 - ln0) / (nf -1)
     
     freqs = nf * [0]
     for i in range(nf):
@@ -51,24 +54,12 @@ else:
     fr1 = int(in_str[1])
     df = int(in_str[2])
 
-    freqs = list(range(fr0, fr1 + df, df))
+    if fr0 + df > fr1:
+        freqs = [fr0]
+    else:
+        freqs = list(range(fr0, fr1 + df, df))
     
 print(f"# freqs = {freqs}")
-
-if False:
-    try:
-        offset = float(input("Enter offset (0 to 1): "))
-        offset = max(min(1.0, offset), 0.0)
-    except ValueError:
-        offset = 0.5
-
-    max_amp = min(offset, 1 - offset)
-
-    try:
-        amplitude = float(input("Enter amplitude (0 to 0.5): "))
-        amplitude = max(min(max_amp, amplitude), 0.0)
-    except ValueError:
-        amplitude = 0.5
 
 offset = 0.5
 amplitude = 0.5
@@ -251,10 +242,14 @@ wave1.pars=[]
 print("# step through frequencies")
 try:
     for i in range(N_REPEAT):
-        print(f"# Loop {i:4d} of {N_REPEAT:4d}")
+        print(f"# Loop {i+1:4d} of {N_REPEAT+1:4d}")
+        print(\
+"# Freq  Vsig    VsRMS    Vfile     VfRMS"\
+            )
         for freq in freqs:
             t_sleep_us = round(1_000_000 / (N_PER_CYCLE * freq))
-            print(t_sleep_us, end=' ')
+            # Sleep at least 1 us
+            t_sleep_us = max(1, t_sleep_us)
             setupwave(wavbuf[ibuf],freq,wave1); ibuf=(ibuf+1)%2
             sleep(1)
             sum_Vsig = 0.0
@@ -289,7 +284,15 @@ finally:
     # Turn off statemachine
     # sm.active(0) # Nope
     # PIO.remove_program(stream) # Nope
-    reset()
+    # reset()
+    DMA_ABORT = DMA_BASE + 0x444
+    mem32[DMA_ABORT] = 0xFFFF
+    while int(mem32[DMA_ABORT]) != 0:
+        time.sleep_us(0.05)
+    mem32[CH0_AL1_CTRL] = mem32[CH0_AL1_CTRL] & 0xFFFFFFFE
+    mem32[CH1_CTRL_TRIG] = mem32[CH1_CTRL_TRIG] & 0xFFFFFFFE
+    sm.active(0)
+    PIO(0).remove_program()    
     
 
 print("# D O N E ! ! !")
