@@ -1,0 +1,43 @@
+]0;🐍Done | 9.0.5\[2K[0GAuto-reload is off.
+Running in safe mode! Not running saved code.
+
+You are in safe mode because:
+CircuitPython core code crashed hard. Whoops!
+Hard fault: memory access or instruction error.
+Please file an issue with your program at github.com/adafruit/circuitpython/issues.
+Press reset to exit safe mode.
+
+Press any key to enter the REPL. Use CTRL-D to reload.
+]0;🐍REPL | 9.0.5\
+Adafruit CircuitPython 9.0.5 on 2024-05-22; Adafruit Feather RP2040 RFM with rp2040
+>>> 
+]0;🐍Done | 9.0.5\soft reboot
+
+[2K[0GAuto-reload is off.
+Running in safe mode! Not running saved code.
+
+You are in safe mode because:
+CircuitPython core code crashed hard. Whoops!
+Hard fault: memory access or instruction error.
+Please file an issue with your program at github.com/adafruit/circuitpython/issues.
+Press reset to exit safe mode.
+
+Press any key to enter the REPL. Use CTRL-D to reload.
+]0;🐍REPL | 9.0.5\
+Adafruit CircuitPython 9.0.5 on 2024-05-22; Adafruit Feather RP2040 RFM with rp2040
+>>> ]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\t_loop = 0.10674 set is 0.1
+]0;🐍code.py | 9.0.5\t_loop = 0.10592 set is 0.1
+t_loop = 0.10597 set is 0.1
+t_loop = 0.10591 set is 0.1
+]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\t_loop = 0.10595 set is 0.1
+]0;🐍code.py | 9.0.5\t_loop = 0.10595 set is 0.1
+t_loop = 0.10594 set is 0.1
+]0;🐍code.py | 9.0.5\t_loop = 0.10589 set is 0.1
+]0;🐍code.py | 9.0.5\t_loop = 0.10596 set is 0.1
+]0;🐍code.py | 9.0.5\t_loop = 0.10598 set is 0.1
+Loop time = 0.106021 +/- 0.00025895
+]0;🐍Done | 9.0.5\
+Code done running.
+[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+
+Press any key to enter the REPL. Use CTRL-D to reload.

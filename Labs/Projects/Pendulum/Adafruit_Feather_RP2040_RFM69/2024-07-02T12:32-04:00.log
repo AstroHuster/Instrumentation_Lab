@@ -1,0 +1,207 @@
+OK
+]0;🐍Done | 9.0.5\soft reboot
+raw REPL; CTRL-B to exit
+>
+]0;🐍REPL | 9.0.5\
+Adafruit CircuitPython 9.0.5 on 2024-05-22; Adafruit Feather RP2040 RFM with rp2040
+>>> 
+]0;🐍Done | 9.0.5\soft reboot
+
+[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+[2K[0Gcode.py output:
+]0;🐍code.py | 9.0.5\import receive
+Feather RP20240 RFM69 Receive
+Waiting for packets...
+Received a packet >7.86868<
+Received a packet >0.892903<
+]0;🐍Done | 9.0.5\
+Code stopped by auto-reload. Reloading soon.
+soft reboot
+
+[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+[2K[0Gcode.py output:
+]0;🐍code.py | 9.0.5\import receive
+Feather RP20240 RFM69 Receive
+Waiting for packets...
+Received a packet >1.2416<
+Received a packet >1.99805<
+Received a packet >3.58505<
+Received a packet >2.56417<
+Received a packet >5.41285<
+Received a packet >7.16385<
+Received a packet >2.18732<
+Received a packet >1.93467<
+Received a packet >1.645<
+Received a packet >1.74234<
+Received a packet >1.60708<
+Received a packet >3.85946<
+]0;🐍Done | 9.0.5\
+Code stopped by auto-reload. Reloading soon.
+soft reboot
+
+[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+[2K[0Gcode.py output:
+]0;🐍code.py | 9.0.5\import receive
+Feather RP20240 RFM69 Receive
+Waiting for packets...
+Received a packet >9.78866<
+Received a packet >5.01108<
+Received a packet >4.81305<
+Received a packet >6.82677<
+Received a packet >0.641556<
+Received a packet >4.57665<
+Received a packet >5.71013<
+Received a packet >0.0207567<
+Received a packet >2.73274<
+Received a packet >5.19265<
+Received a packet >3.8402<
+Received a packet >2.22664<
+Received a packet >3.45996<
+Received a packet >3.80651<
+Received a packet >8.68134<
+Received a packet >2.56286<
+Received a packet >6.6618<
+Received a packet >7.48466<
+Received a packet >2.91388<
+Received a packet >5.55088<
+Received a packet >9.31517<
+Received a packet >6.49503<
+Received a packet >6.8731<
+Received a packet >9.66629<
+Received a packet >7.12894<
+Received a packet >8.35064<
+Received a packet >3.29316<
+Received a packet >0.0666666<
+Received a packet >6.45674<
+Received a packet >9.06444<
+Received a packet >8.43575<
+Received a packet >7.66836<
+Received a packet >2.62591<
+Received a packet >8.00433<
+Received a packet >2.03859<
+Received a packet >8.96358<
+Received a packet >1.71944<
+Received a packet >3.624<
+Received a packet >1.42086<
+Received a packet >6.52727<
+Received a packet >5.9219<
+Received a packet >7.65708<
+Received a packet >7.78396<
+Received a packet >2.51212<
+Received a packet >8.75849<
+Received a packet >7.2224<
+Received a packet >6.30774<
+Received a packet >9.86481<
+Received a packet >2.85445<
+Received a packet >1.34536<
+Received a packet >4.16913<
+Received a packet >2.78803<
+Received a packet >0.71135<
+Received a packet >0.352061<
+Received a packet >8.75115<
+Received a packet >3.76617<
+Received a packet >6.68583<
+Received a packet >2.47276<
+Received a packet >6.0787<
+Received a packet >5.65401<
+Received a packet >7.00823<
+Received a packet >2.37947<
+Received a packet >5.99214<
+Received a packet >6.96428<
+Received a packet >4.20248<
+Received a packet >6.46966<
+Received a packet >9.57917<
+Received a packet >8.30735<
+Received a packet >7.65111<
+Received a packet >3.08272<
+Received a packet >4.74221<
+Received a packet >9.37025<
+Received a packet >0.827583<
+Received a packet >3.04156<
+Received a packet >2.81826<
+Received a packet >1.14969<
+Received a packet >2.84487<
+Received a packet >3.37459<
+Received a packet >8.01584<
+Received a packet >0.328287<
+Received a packet >0.252725<
+Received a packet >2.82393<
+Received a packet >1.62097<
+Received a packet >5.37118<
+Received a packet >6.14823<
+Received a packet >3.4864<
+Received a packet >0.61393<
+Received a packet >2.59429<
+Received a packet >0.93232<
+Received a packet >0.849634<
+Received a packet >1.45085<
+Received a packet >6.68424<
+Received a packet >2.74267<
+Received a packet >8.01717<
+Received a packet >8.629<
+Received a packet >9.89525<
+Received a packet >7.6886<
+Received a packet >1.17911<
+Received a packet >3.39316<
+Received a packet >7.30498<
+Received a packet >9.2713<
+]0;🐍Done | 9.0.5\
+Code stopped by auto-reload. Reloading soon.
+soft reboot
+
+[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+[2K[0Gcode.py output:
+]0;🐍code.py | 9.0.5\import receive
+Feather RP20240 RFM69 Receive
+Waiting for packets...
+Received a packet >1.7012<
+Received a packet >3.33182<
+Received a packet >7.77297<
+Received a packet >9.7563<
+Received a packet >9.17056<
+Received a packet >1.60916<
+Received a packet >0.70938<
+Received a packet >9.87836<
+Received a packet >2.68662<
+Received a packet >7.66863<
+Received a packet >3.4988<
+Received a packet >8.81719<
+Received a packet >5.67345<
+Received a packet >7.82448<
+Received a packet >6.23122<
+Received a packet >9.78783<
+Received a packet >8.86117<
+Received a packet >8.90267<
+]0;🐍Done | 9.0.5\
+Code stopped by auto-reload. Reloading soon.
+soft reboot
+
+[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+[2K[0Gcode.py output:
+]0;🐍code.py | 9.0.5\import receive
+Feather RP20240 RFM69 Receive
+Waiting for packets...
+Received a packet >2.69334<
+Received a packet >8.83913<
+Received a packet >1.16692<
+Received a packet >3.88319<
+Received a packet >5.39593<
+Received a packet >3.86432<
+Received a packet >3.84028<
+]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍Done | 9.0.5\
+Code stopped by auto-reload. Reloading soon.
+soft reboot
+
+[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+[2K[0Gcode.py output:
+]0;🐍code.py | 9.0.5\import send
+Feather RP20240 RFM69 Send Demo
+....................................................................................................t_loop = 0.00668999 set is 0.1
+]0;🐍Done | 9.0.5\
+Code done running.
+
+Press any key to enter the REPL. Use CTRL-D to reload.
+]0;🐍Done | 9.0.5\]0;🐍Done | 9.0.5\]0;🐍Done | 9.0.5\]0;🐍Done | 9.0.5\]0;🐍Done | 9.0.5\[2K[0GAuto-reload is on. Simply save files over USB to run them or enter REPL to disable.
+
+Press any key to enter the REPL. Use CTRL-D to reload.
+]0;🐍Done | 9.0.5\]0;🐍Done | 9.0.5\]0;🐍Done | 9.0.5\]0;🐍Done | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\]0;🐍code.py | 9.0.5\
