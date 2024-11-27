@@ -1,7 +1,0 @@
-We should get together and talk about this. 
- 
-Our majors take a one semester Electronics course in their second year. It is significantly different that the course(s) the engineering majors take. I haven't taught it at Duquesne, but I have consulted with the instructors closely at times. 
- 
-I would design the course around using microcontrollers from the next generation of Arduinos. They are programmed in high-level languages like micropython or C++. After an introduction there, move to using some of the hundreds of sensor and control breakout boards to build experiments and take data, and analyze it. I like this approach because it mirrors what experimental physicists do in practice and it taps into the Maker movement that has spread throughout the world. Part of the popularity is that the devices are cheap. Microcontrollers for $6 to $25, and breakout boards from $5 to $30.
- 
-As an example, I am mentoring my replacement at Duquesene and just this week we started three students on a project to measure and model the acoustics of woodwind and brass instruments. I built the impedance measurement head for about $40 from a Teensy microcontroller, a piezoelectric speaker and a $10 microphone breakout board. We spent twenty minutes brainstorming with the students what they could do with the project.
